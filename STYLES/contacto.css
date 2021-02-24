@@ -1,0 +1,19 @@
+body{
+    background-color: #fde9e2;
+    margin: 0px;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    color: #581622;
+    margin-top: 45px;
+    font-size: 30px;
+    padding: 0 0 10 25;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}

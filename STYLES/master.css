@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: #fde9e2;
+}
+.logo{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: gray;
+}
