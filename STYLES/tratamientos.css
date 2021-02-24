@@ -27,9 +27,11 @@ body{
 .tratamientos{
     color:#fde9e2;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr 1fr;
     padding: 25px 25px 70px 25px;
+    gap: 50px;
+    justify-content: center;
 }
 .etiquetas{
     background-color:#581622;
@@ -49,12 +51,14 @@ body{
     outline: none;
     font-size: 15px;
   }
+  
 .content {
     padding: 0 18px;
     background-color:  black;
     max-height: 100px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    display: none;
   }
 .footer{
     background-color: #581622;
