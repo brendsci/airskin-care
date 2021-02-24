@@ -9,7 +9,7 @@ body{
 }
 .titulo{
     color: #581622;
-    margin-top: 45px;
+    margin-top: 20px;
     font-size: 30px;
     padding: 0 0 10 25;
 }
@@ -17,12 +17,21 @@ body{
     display: flex;
     justify-content: flex-start;
 }
+.generales{
+    display: flex;
+    justify-content: center;
+    color: #581622;
+    padding: 10px;
+    font-size: 25px;
+}
 .tratamientos{
     color:#fde9e2;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr;
-    padding: 25px 25px 195px 25px;
+    padding: 25px 25px 70px 25px;
+    gap: 50px;
+    justify-content: center;
 }
 .etiquetas{
     background-color:#581622;
@@ -31,6 +40,29 @@ body{
     border-width: 20px;
     text-align: center;
 }
+.collapsible {
+    background-color: #581622;
+    color: #fde9e2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.content {
+    padding: 0 18px;
+    background-color:  #fde9e2;
+    max-height: 150px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: none;
+    color: #581622;
+    text-align: justify;
+}
+
 .footer{
     background-color: #581622;
     display: flex;

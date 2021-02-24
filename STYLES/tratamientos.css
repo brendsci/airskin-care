@@ -54,11 +54,13 @@ body{
   
 .content {
     padding: 0 18px;
-    background-color:  black;
+    background-color:  #fde9e2;
     max-height: 100px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     display: none;
+    color: #581622;
+    text-align: justify;
   }
 .footer{
     background-color: #581622;

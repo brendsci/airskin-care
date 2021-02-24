@@ -9,13 +9,20 @@ body{
 }
 .titulo{
     color: #581622;
-    margin-top: 45px;
+    margin-top: 35px;
     font-size: 30px;
     padding: 0 0 10 25;
 }
 .logo{
     display: flex;
     justify-content: flex-start;
+}
+.generales{
+    display: flex;
+    justify-content: center;
+    color: #581622;
+    padding: 15px;
+    font-size: 25px;
 }
 .tratamientos{
     color:#fde9e2;
