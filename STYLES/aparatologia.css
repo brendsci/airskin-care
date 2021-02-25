@@ -17,6 +17,9 @@ body{
     display: flex;
     justify-content: flex-start;
 }
+.logo-mobile{
+    display: none;
+}
 .generales{
     display: flex;
     justify-content: center;
@@ -75,3 +78,23 @@ body{
     flex-direction: row;
     gap: 20px;
 }
+@media only screen and (max-width: 600px) {
+    
+    .header{
+        align-items:center;
+    }
+    .titulo{
+        font-size: 15px;
+        text-align: center;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .generales{
+        font-size: 20px;
+        text-align: center;
+    }
+  }
