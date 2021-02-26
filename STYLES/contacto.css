@@ -23,10 +23,20 @@ body{
 .contacto{
     color:#581622 ;
     font-size: large;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
-#map {
-    height: 100%;
-  }
+.map-tel-fb{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px 0px 30px;
+}
+.map{
+    display: block;
+}
+.map-mobile{
+    display: none;
+}
   @media only screen and (max-width: 600px) {
     
     .header{
@@ -45,5 +55,11 @@ body{
     .generales{
         font-size: 20px;
         text-align: center;
+    }
+    .map{
+        display: none;
+    }
+    .map-mobile{
+        display: block;
     }
   }
