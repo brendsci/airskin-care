@@ -7,9 +7,20 @@ body{
     align-items:center ;
     justify-content: center;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    color: gray;
+.logo-mobile{
+    display: none;
 }
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0px 25px 0px 25px;
+}
+.titulos{
+    color: gray;
+   background-color:#581622 ;
+   border-style: solid;
+   border-color:#fde9e2 ;
+   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  }
